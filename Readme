@@ -1,0 +1,39 @@
+1.Mô tả khái quát nội dung đề tài 
+    Đề tài xây dựng một “website bán đồ nội thất” trực tuyến nhằm cung cấp giải pháp kinh doanh và mua sắm đồ nội thất hiệu quả, tiện lợi cho người dùng. Web sẽ cung cấp thông tin chi tiết về các sản phẩm như bàn ghế, tủ, giường, kệ trang trí, v.v., có hình ảnh và giá bán. Người dùng có thể tìm kiếm, xem và đặt mua sản phẩm dễ dàng. Ngoài ra, hệ thống hỗ trợ quản lý đơn hàng, thanh toán trực tuyến và tương tác giữa người bán và khách hàng.
+2.Mô tả các yêu cầu tổ chức chương trình chính về công nghệ, chức năng
+    Công nghệ sử dụng:
+•	Frontend: HTML, CSS, JavaScript.
+•	Backend: Node.js, PHP hoặc Java.
+•	Cơ sở dữ liệu: MySQL.
+    Các chức năng chính:
+  Chức năng người dùng:
+o	Đăng ký, đăng nhập tài khoản.
+o	Tìm kiếm sản phẩm.
+o	Xem chi tiết sản phẩm (hình ảnh, mô tả, giá cả).
+o	Thêm sản phẩm vào giỏ hàng và đặt hàng.
+o	Thanh toán đơn hàng trực tuyến.
+o	Theo dõi trạng thái đơn hàng.
+	Chức năng quản trị viên (Admin):
+o	Quản lý danh mục sản phẩm.
+o	Thêm, sửa, xóa thông tin sản phẩm.
+o	Quản lý đơn hàng và trạng thái giao hàng.
+o	Quản lý tài khoản người dùng và phản hồi từ khách hàng
+3.Mô tả về tính năng sử dụng, áp dụng, các thành phần người dùng
+    Tính sử dụng và áp dụng:
+•	Hệ thống có thể áp dụng cho các cửa hàng đồ nội thất vừa và nhỏ hoặc doanh nghiệp lớn cần chuyển đổi số.
+•	Người dùng có thể dễ dàng tìm kiếm, xem và đặt mua sản phẩm từ xa mà không cần đến cửa hàng trực tiếp.
+•	Nâng cao khả năng quảng bá sản phẩm, tiết kiệm chi phí vận hành và mở rộng tệp khách hàng cho doanh nghiệp.
+     Các thành phần người dùng:
+1.	Khách hàng (End-user):
+o	Sử dụng website để xem và mua sản phẩm.
+o	Thanh toán và theo dõi đơn hàng.
+2.	Quản trị viên (Admin):
+o	Quản lý nội dung website (sản phẩm, đơn hàng, tài khoản).
+o	Duy trì hoạt động và bảo trì hệ thống.
+4.Mô tả sơ về kết quả dự kiến
+-	Xây dựng một website hoàn chỉnh với giao diện thân thiện, dễ sử dụng.
+-	Hệ thống hoạt động ổn định, cho phép người dùng thực hiện đầy đủ các chức năng: xem sản phẩm, mua hàng và thanh toán.
+-	Tích hợp thanh toán trực tuyến và quản lý đơn hàng hiệu quả.
+-	Giao diện được tối ưu hóa trên nhiều thiết bị .
+-	Website giúp nâng cao trải nghiệm người dùng, tăng doanh thu cho cửa hàng và hỗ trợ quản lý dễ dàng hơn.
+
