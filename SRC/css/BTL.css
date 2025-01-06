@@ -389,7 +389,8 @@ display: block;
   }
   
   .content {
-    background-color: #f2f2f2;
+    color: white;
+    background-color: #d5a23c;
     padding: 20px;
     border-radius: 5px;
     text-align: center;
@@ -442,6 +443,7 @@ display: block;
   }
   .anh1 img {
     width: 100%;
+    border-radius: 10px;
   }
   
   
@@ -474,21 +476,62 @@ display: block;
   .them:hover {
     background-color: #b49149;
   }
-
-  .free {
-    width: 1300px;
-    margin: -15px auto;
+  /*Banner-new-index*/
+  .Baner-new {
+    
+    width: 1100px;
+    height: 290px;
+    background-color: #02760e;
+    margin-left: 15%;
+    border-radius: 10px;
+  }
+  .Baner-new-conten {
     display: flex;
-    padding-top: -30px;
-    height: 20vh;
+    justify-content: space-between;
   }
-  .free_vanchuyen {
-    margin: 0 auto;
+  .Baner-left {
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 40px;
+    color: white;
+  }
+  .Baner-left button {
+    height: 40px;
+    width: 50%;
+    color: coral;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    border-radius: 15px;
+    border: none;
+  }
+  .Baner-right {
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 60%;
+    display: flex;
+  }
+  .Baner-right-one {
+    width: 30%
+  }
+  .Baner-right-two {
+    width: 30%;
   }
 
-  .free_vanchuyen img {
-    width: 1200px;
+  .Baner-right-one img {
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
   }
+  .Baner-right-two img {
+    width: 250px;
+    height: 200px;
+    margin-left: 120px;
+    border-radius: 20px;
+  }
+
+
+
+
  
   .block_home {
     width: 1300px;
@@ -500,10 +543,11 @@ display: block;
 .block_home img {
     margin-left: 60px;
     width: 550px;
-    height: 150px;
+    height: 200px;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
+   
 }
 
 .block_home img:hover {
