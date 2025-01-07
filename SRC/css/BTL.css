@@ -206,23 +206,26 @@ background-color: white;
 position: relative; 
 width: 300px;
 margin-left:250px;
+
 }
 
 .vinh-search input {
 border: none;
 outline: none;
 padding: 12px 40px 12px 16px; 
-font-size: 12px; 
+font-size: 15px; 
 width: 100%;
-background-color: #ebebeb;
+background-color: #efd033;
+color: black;
+border-radius: 10px;
 }
 
 .vinh-search i {
 position: absolute;
 right: 12px;
-top: 17px;
+top: 22px;
 transform: translateY(-50%); 
-color: #666;
+color: black;
 }
 
 
@@ -294,6 +297,7 @@ display: block;
     background-color: #a9dafd;
     overflow: hidden;
     margin: 0 auto;
+    margin-top: 30px;
   }
 
   .list-slider {
@@ -482,7 +486,7 @@ display: block;
     
     width: 1100px;
     height: 290px;
-    background-color: #02760e;
+    background-color: #efd033;
     margin-left: 15%;
     border-radius: 10px;
   }
@@ -507,7 +511,7 @@ display: block;
   }
   .Baner-right {
     margin-left: 10px;
-    margin-top: 50px;
+    margin-top: 30px;
     width: 60%;
     display: flex;
   }
@@ -519,13 +523,13 @@ display: block;
   }
 
   .Baner-right-one img {
-    width: 250px;
-    height: 200px;
+    width: 280px;
+    height: 230px;
     border-radius: 20px;
   }
   .Baner-right-two img {
-    width: 250px;
-    height: 200px;
+    width: 280px;
+    height: 230px;
     margin-left: 120px;
     border-radius: 20px;
   }
