@@ -567,6 +567,7 @@ a{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   transition: border 0.3s ease; 
   position: relative; 
+  color: black;
 }
 
 .vinh-shop i:hover {
