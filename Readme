@@ -1,39 +1,55 @@
-1.Mô tả khái quát nội dung đề tài 
-    Đề tài xây dựng một “website bán đồ nội thất” trực tuyến nhằm cung cấp giải pháp kinh doanh và mua sắm đồ nội thất hiệu quả, tiện lợi cho người dùng. Web sẽ cung cấp thông tin chi tiết về các sản phẩm như bàn ghế, tủ, giường, kệ trang trí, v.v., có hình ảnh và giá bán. Người dùng có thể tìm kiếm, xem và đặt mua sản phẩm dễ dàng. Ngoài ra, hệ thống hỗ trợ quản lý đơn hàng, thanh toán trực tuyến và tương tác giữa người bán và khách hàng.
-2.Mô tả các yêu cầu tổ chức chương trình chính về công nghệ, chức năng
-    Công nghệ sử dụng:
-•	Frontend: HTML, CSS, JavaScript.
-•	Backend: Node.js, PHP hoặc Java.
-•	Cơ sở dữ liệu: MySQL.
-    Các chức năng chính:
-  Chức năng người dùng:
-o	Đăng ký, đăng nhập tài khoản.
-o	Tìm kiếm sản phẩm.
-o	Xem chi tiết sản phẩm (hình ảnh, mô tả, giá cả).
-o	Thêm sản phẩm vào giỏ hàng và đặt hàng.
-o	Thanh toán đơn hàng trực tuyến.
-o	Theo dõi trạng thái đơn hàng.
-	Chức năng quản trị viên (Admin):
-o	Quản lý danh mục sản phẩm.
-o	Thêm, sửa, xóa thông tin sản phẩm.
-o	Quản lý đơn hàng và trạng thái giao hàng.
-o	Quản lý tài khoản người dùng và phản hồi từ khách hàng
-3.Mô tả về tính năng sử dụng, áp dụng, các thành phần người dùng
-    Tính sử dụng và áp dụng:
-•	Hệ thống có thể áp dụng cho các cửa hàng đồ nội thất vừa và nhỏ hoặc doanh nghiệp lớn cần chuyển đổi số.
-•	Người dùng có thể dễ dàng tìm kiếm, xem và đặt mua sản phẩm từ xa mà không cần đến cửa hàng trực tiếp.
-•	Nâng cao khả năng quảng bá sản phẩm, tiết kiệm chi phí vận hành và mở rộng tệp khách hàng cho doanh nghiệp.
-     Các thành phần người dùng:
-1.	Khách hàng (End-user):
-o	Sử dụng website để xem và mua sản phẩm.
-o	Thanh toán và theo dõi đơn hàng.
-2.	Quản trị viên (Admin):
-o	Quản lý nội dung website (sản phẩm, đơn hàng, tài khoản).
-o	Duy trì hoạt động và bảo trì hệ thống.
-4.Mô tả sơ về kết quả dự kiến
--	Xây dựng một website hoàn chỉnh với giao diện thân thiện, dễ sử dụng.
--	Hệ thống hoạt động ổn định, cho phép người dùng thực hiện đầy đủ các chức năng: xem sản phẩm, mua hàng và thanh toán.
--	Tích hợp thanh toán trực tuyến và quản lý đơn hàng hiệu quả.
--	Giao diện được tối ưu hóa trên nhiều thiết bị .
--	Website giúp nâng cao trải nghiệm người dùng, tăng doanh thu cho cửa hàng và hỗ trợ quản lý dễ dàng hơn.
+1. Mô tả khái quát nội dung đề tài
+Đề tài này tập trung vào việc xây dựng một “website bán đồ nội thất” nhằm cung cấp giải pháp kinh doanh hiện đại, hiệu quả và tiện lợi cho các doanh nghiệp nội thất, đồng thời mang lại trải nghiệm mua sắm dễ dàng và nhanh chóng cho khách hàng. Website sẽ là cầu nối giữa doanh nghiệp và khách hàng với các tính năng chính bao gồm:
+
+Cung cấp thông tin chi tiết về sản phẩm: Hiển thị hình ảnh, thông số kỹ thuật, chất liệu, giá bán và các thông tin mô tả khác cho các mặt hàng như: bàn ghế, giường, tủ, kệ, đồ trang trí.
+Hỗ trợ mua sắm trực tuyến: Người dùng có thể dễ dàng tìm kiếm, thêm sản phẩm vào giỏ hàng, đặt hàng và thanh toán online.
+Hệ thống quản lý hiệu quả: Hỗ trợ quản trị viên quản lý danh mục sản phẩm, đơn hàng, tài khoản khách hàng và tương tác phản hồi.
+Hệ thống không chỉ phục vụ mục đích thương mại mà còn thúc đẩy chuyển đổi số trong ngành nội thất, mở rộng quy mô kinh doanh và tiếp cận khách hàng từ xa.
+
+2. Mô tả các yêu cầu tổ chức chương trình chính
+Công nghệ sử dụng:
+Frontend: HTML, CSS, JavaScript (kết hợp với các framework để tăng cường tính tương tác và tối ưu giao diện).
+Backend: Node.js, PHP (Laravel), hoặc Java (Spring Boot) để xử lý dữ liệu và cung cấp API.
+Cơ sở dữ liệu: MySQL để lưu trữ thông tin sản phẩm, đơn hàng, người dùng.
+Hệ thống thanh toán trực tuyến: Tích hợp các cổng thanh toán như PayPal, Stripe hoặc VNPAY.
+Chức năng chính của hệ thống:
+Chức năng dành cho khách hàng (End-user):
+
+Đăng ký, đăng nhập: Người dùng cần tạo tài khoản để quản lý thông tin cá nhân và theo dõi đơn hàng.
+Tìm kiếm sản phẩm: Hỗ trợ tìm kiếm theo tên, danh mục hoặc mức giá.
+Xem chi tiết sản phẩm: Bao gồm hình ảnh, thông tin chi tiết và đánh giá từ khách hàng.
+Giỏ hàng và đặt hàng: Cho phép thêm sản phẩm vào giỏ, điều chỉnh số lượng và hoàn tất đặt hàng.
+Thanh toán trực tuyến: Đảm bảo an toàn, nhanh chóng với nhiều phương thức thanh toán.
+Theo dõi trạng thái đơn hàng: Hiển thị thông tin giao hàng theo từng bước (đã xác nhận, đang giao, đã giao).
+Chức năng dành cho quản trị viên (Admin):
+
+Quản lý danh mục sản phẩm: Thêm mới, chỉnh sửa hoặc xóa sản phẩm.
+Quản lý đơn hàng: Theo dõi, xử lý trạng thái đơn hàng (đã xác nhận, đang giao).
+Quản lý tài khoản khách hàng: Cập nhật hoặc vô hiệu hóa tài khoản khi cần thiết.
+Quản lý phản hồi: Duyệt và trả lời đánh giá, câu hỏi của khách hàng.
+3. Mô tả về tính năng sử dụng, áp dụng và các thành phần người dùng
+Tính năng sử dụng và áp dụng:
+Lợi ích đối với doanh nghiệp:
+Tăng khả năng tiếp cận khách hàng trên phạm vi rộng.
+Tối ưu chi phí vận hành thông qua tự động hóa quy trình kinh doanh.
+Quản lý thông tin sản phẩm và đơn hàng dễ dàng, hiệu quả.
+Lợi ích đối với khách hàng:
+Tiện lợi khi mua sắm từ xa mà không cần đến cửa hàng.
+Tiếp cận thông tin sản phẩm minh bạch và chi tiết.
+Thao tác dễ dàng từ tìm kiếm, đặt hàng đến thanh toán.
+Các thành phần người dùng:
+Khách hàng (End-user):
+Vai trò: Sử dụng website để tìm kiếm, xem và mua sản phẩm.
+Hành động chính: Tạo tài khoản, thêm sản phẩm vào giỏ hàng, thanh toán và theo dõi trạng thái đơn hàng.
+Quản trị viên (Admin):
+Vai trò: Quản lý toàn bộ nội dung và hoạt động của hệ thống.
+Hành động chính: Cập nhật thông tin sản phẩm, xử lý đơn hàng, quản lý tài khoản khách hàng và hệ thống phản hồi.
+4. Mô tả sơ bộ về kết quả dự kiến
+Kết quả của đề tài bao gồm:
+
+Xây dựng một website hoàn chỉnh: Giao diện hiện đại, thân thiện, hỗ trợ trên nhiều thiết bị (PC, điện thoại, máy tính bảng).
+Hệ thống hoạt động ổn định: Cho phép người dùng thực hiện đầy đủ các chức năng từ xem sản phẩm đến thanh toán trực tuyến.
+Quản lý hiệu quả: Hỗ trợ doanh nghiệp theo dõi và quản lý sản phẩm, đơn hàng dễ dàng.
+Tích hợp thanh toán trực tuyến: Đảm bảo an toàn và nhanh chóng.
+Nâng cao trải nghiệm người dùng: Giúp doanh nghiệp tăng doanh thu, tiếp cận nhiều khách hàng hơn và giảm thiểu lỗi trong quá trình vận hành.
 
