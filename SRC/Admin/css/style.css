@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: #e6d554;
-    --sub-bg-color: white;
-    --top-height: 100px;
+    --sub-bg-color: #f2f7fb;
+    --top-height: 70px;
     --main-transition: all 0.3s ease;
 }
 
@@ -21,13 +21,48 @@ li {
 .rơw-gird {
     display: grid;
     justify-content: space-between;
+}.main-btn {
+    padding: 10px 12px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}
+.delete-class {
+    padding: 3px;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 5px;
+
+}
+.edit-class {
+    padding: 3px;
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 5px;
+
+}
+.confirm-order-one {
+    padding: 3px;
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 5px;
+
+}
+.confirm-order-two {
+    padding: 3px;
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 5px;
+
+
 }
 .admin .rơw-gird {
     grid-template-columns: 20% 80%;
 }
 /*admin-all*/
 .admin-all {
-    height: 100vh;
+    height: 105vh;
     background-color: var(--main-bg-color);
     
 }
@@ -38,8 +73,9 @@ li {
     border-bottom: 1px solid gray;
 }
 .admin-all-top img {
-    width: 100%;
-    height: 100%;
+    width: 200px;
+    height: 70px;
+    border-radius: 10px;
 }
 .admin-all-content > ul > li > a {
     width: 100%;
@@ -74,10 +110,11 @@ li {
 /*Content*/
 .flex-box {
     display: flex;
+    
    
 }
 .flex-box i {
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(152, 132, 5);
 }
 .flex-box img {
@@ -85,7 +122,7 @@ li {
     width: 80px;
    
 }
-
+/*admin-content*/
 
 .admin-content {
     background-color: var(--sub-bg-color);
@@ -98,8 +135,9 @@ li {
     padding: 0 12px;
 }
 .admin-content-top .flex-box {
-    height: 100px;
+    height: 70px;
     align-items: center;
+    
 }
 .admin-content-top i {
     margin-right: 12px;
@@ -182,4 +220,105 @@ li {
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 
+}
+.admin-all-content-main-content {
+    background-color: white;
+
+}
+/*prouct-add*/
+
+
+.admin-all-content-main-content-prouct-add {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    column-gap: 20px;
+
+}
+.admin-all-content-main-content-prouct-add-left {
+    width: 70%;
+}
+.admin-all-content-main-content-prouct-add-right {
+    width: 30%;
+}
+.admin-all-content-main-content-prouct-add-left input{
+    height: 40px;
+    border: none;
+    background-color:  var(--sub-bg-color);
+    margin-bottom: 20px;
+    outline: none;
+    border-radius: 5px;
+    padding-left: 6px;
+}
+.admin-all-content-main-content-prouct-add-input {
+    display: flex;
+    justify-content: space-between;
+}
+.admin-all-content-main-content-prouct-add-input:nth-child(1) input {
+    width: 100%;
+}
+.admin-all-content-main-content-prouct-add-input input {
+    width: 45%;
+}
+.admin-all-content-main-content-prouct-add-left textarea {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 6px;
+    border: none;
+    background-color: var(--sub-bg-color);
+}
+.admin-all-content-main-content-prouct-add-right-image input {
+    display: none;
+}
+.admin-all-content-main-content-prouct-add-right-images input {
+    display: none;
+}
+.admin-all-content-main-content-prouct-add-right label {
+    padding: 6px 12px;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+}
+.image-show, .images-show {
+    min-height: 150px;
+}
+
+/*prouct-list*/
+.admin-all-content-main-content-prouct-list table {
+    width: 100%;
+    padding: 12px 0;
+    border-collapse: collapse;
+}
+.admin-all-content-main-content-prouct-list table,th,td {
+    text-align: center;
+}
+.admin-all-content-main-content-prouct-list table th {
+    background-color: rgb(50, 49, 49);
+    color: white;
+    padding: 6px 0px;
+}
+
+/*Order-list*/
+.admin-all-content-main-content-order-list table {
+    width: 100%;
+    padding: 12px 0;
+    border-collapse: collapse;
+}
+.admin-all-content-main-content-order-list table a {
+     display: inline-block;
+}
+.admin-all-content-main-content-order-list table,th,td {
+    text-align: center;
+}
+.admin-all-content-main-content-order-list table th {
+    background-color: rgb(50, 49, 49);
+    color: white;
+    padding: 6px 0px;
+}
+.admin-all-content-main-content-order-list table td {
+    padding: 6px 0px;
 }
