@@ -322,3 +322,23 @@ li {
 .admin-all-content-main-content-order-list table td {
     padding: 6px 0px;
 }
+/*List lua chon*/
+.List-choice{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.List-choice p{
+    width: 200px;
+    font-weight: 500;
+}
+
+.List-choice select{
+    width: 300px;
+    height: 35px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+}
