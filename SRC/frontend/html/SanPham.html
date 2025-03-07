@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,47 +10,50 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
 
     <header>
-        
+
         <div class="vinh-logo">
             <a href="#"><img src="../anh/Dvl store.png" alt=""></a>
-       </div>
-       <nav class="vinh-navbar">
-           
-           <div class="vinh-thongtin">
-               <a href=""><i class="fa-solid fa-phone"></i>1900.636.099</a>
-               <a href="">Đăng kí</a>
-               <a href="">Đăng nhập</a>
+        </div>
+        <nav class="vinh-navbar">
+
+            <div class="vinh-thongtin">
+                <a href=""><i class="fa-solid fa-phone"></i>1900.636.099</a>
+                <a href="">Đăng kí</a>
+                <a href="">Đăng nhập</a>
                 <div class="vinh-sale">
                     <span>Miễn phí vận chuyển <span class="vinh-sale1">ĐƠN HÀNG TRÊN 900K</span></span>
                 </div>
-           </div>
-           <div class="vinh-shop">
+            </div>
+            <div class="vinh-shop">
                 <a href="giohang.html">
                     <i class="fa-solid fa-bag-shopping"></i>
                 </a>
             </div>
-       </nav>   
+        </nav>
 
-   </header>
+    </header>
     <div class="vinh-menu">
         <div class="vinh-menubar">
-           <ul>
-               <li><a href="index.html">TRANG CHỦ</a></li>
-               <li><a href="SanPham.html" id="spham">SẢN PHẨM</a>
-                   <ul class="vinh-submenu">
-                       <li><a href="noithatkhach.html">Nội thất phòng khách </a>
-                       </li>
-                       <li><a href="noithatngu.html">Nội thất phòng ngủ </a>
-                       </li>
-                       <li><a href="noithatvanphong.html">Nội thất văn phòng</a>
-                       </li>
-                       <li><a href="noithatbep.html">Nội thất phòng bếp</a></li>
+            <ul>
+                <li><a href="index.html">TRANG CHỦ</a></li>
+                <li><a href="SanPham.html" id="spham">SẢN PHẨM</a>
+                    <ul class="vinh-submenu">
+                        <li><a href="noithatkhach.html">Nội thất phòng khách </a>
+                        </li>
+                        <li><a href="noithatngu.html">Nội thất phòng ngủ </a>
+                        </li>
+                        <li><a href="noithatvanphong.html">Nội thất văn phòng</a>
+                        </li>
+                        <li><a href="noithatbep.html">Nội thất phòng bếp</a></li>
                         <li><a href="noithattrangtri.html">Đồ trang trí</a></li>
                     </ul>
                 </li>
@@ -91,392 +95,70 @@
                         <img src="../anh/giamgia2.png" class="slides" alt="Image 2">
                         <img src="../anh/giamgia3.png" class="slides" alt="Image 3">
                         <img src="../anh/giamgia4.png" class="slides" alt="Image 4">
-                      
+
                         <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
                         <a class="next" onclick="changeSlide(1)">&#10095;</a>
                     </div>
                 </div>
             </div>
-            <div class="body-right">
-                <div class="body-right-logo">
-                    <p>TẤT CẢ SẢN PHẨM</p>
-                    <div class="sapxep">
-                        <p>Sắp xếp theo:</p>
-                        <select name="xapxep" id="">
-                            <option value="">Giá: Tăng dần</option>
-                            <option value="">Giá: Giảm dần</option>
-                            <option value="">Tên: A-Z</option>
-                            <option value="">Tên: Z-A</option>
-                            <option value="">Cũ nhất</option>
-                            <option value="">Mới nhất</option>
-                            <option value="">Bán chạy nhất</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="product">
-                    <script src="../js/Lam-SanPham.js"></script>  
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image1-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image1-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Tượng xe Vespa Lavanto</p>
-                            <p class="gia">460,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image2-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image2-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Tượng Đôi Mèo Lavanto Home Décor</p>
-                            <p class="gia">863,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image3-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image3-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Sofa Đơn Klosso GĐ001 77 X 76 X 76 X 43 Cm</p>
-                            <p class="gia">1,300,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image4-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image4-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Kệ Treo Tường Hình Vuông</p>
-                            <p class="gia">380,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image5-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image5-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Kệ Treo Tường Hình Lục Giác Happy Home</p>
-                            <p class="gia">570,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image6-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image6-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Kệ Treo Tường Hình Lục Giác Happy Home</p>
-                            <p class="gia">570,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image7-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image7-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Kệ Trang Trí Studio Lam Sơn</p>
-                            <p class="gia">830,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image8-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image8-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Kệ 3 Ô Ghép Hình Vuông</p>
-                            <p class="gia">415,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image9-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image9-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Ghế Xích Đu Lục Bình ATC Furniture</p>
-                            <p class="gia">3,200,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image10-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image10-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Ghế Thư Giãn Tulip Arm Home'furni 58 X 67 X 85 Cm</p>
-                            <p class="gia">600,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image11-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image11-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Ghế Thư Giãn Swan Home'furni</p>
-                            <p class="gia">420,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="body-right-item">
-                        <a class="lam-body-right-item-link" href="">
-                            <div class="body-right-item-img">
-                                <div class="image-wrapper">
-                                    <img src="../anh/image12-1.png" class="image1" alt="Image 1">
-                                    <img src="../anh/image12-2.png" class="image2" alt="Image 2">
-                                </div>
-                            </div>
-                            <p class="sanpham">Ghế Thư Giãn Shell Home'furni 78 X 88,5 X 76 Cm</p>
-                            <p class="gia">1,300,000<u>đ</u></p>
-                        </a>
-                        <div class="lam-icon-container">
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-plus"></i></a>
-                            </div>
-                            <div class="lam-icon">
-                                <a href=""><i class="fa-solid fa-eye"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="lam-trang">
-                        <p class="lam-SanPham-next">
-                            <a href=""></a>
+            <div class="footer">
+                <div class="footered">
+                    <div class="gioithieu">
+                        <h4>GIỚI THIỆU</h4>
+                        <p>
+                            Với hơn 100 nhân viên tư vấn trên mọi phương diện,
+                            không chỉ là hướng dẫn và xử lý các vấn đề từ Haravan,
+                            chúng tôi luôn mong cùng chia sẻ các kinh nghiệm giúp bạn bán được nhiều hàng hơn.
                         </p>
-
-                        <div class="lam-SanPham-trang">
-                            <p class="lam-trang1">1</p>
-                            <a href="SanPham-2.html">2</a>
-                            <a href="SanPham-3.html">3</a>
+                        <div class="thongtin">
+                            <p><i class="fa-solid fa-house"></i>56 Vân côi, Q. Tân Bình, Tp.HCM</p>
+                            <p><i class="fa-solid fa-envelope"></i>hi@haravan.com</p>
+                            <p><i class="fa-solid fa-phone"></i>1900.636.099</p>
+                            <p><i class="fa-solid fa-print"></i>1900.678.099</p>
                         </div>
-                        
-                        <p class="lam-SanPham-next">
-                            <a href="SanPham-2.html">Trang sau <i class="fa-solid fa-arrow-right"></i></a>
-                        </p>
+                    </div>
+
+                    <div class="lienket">
+                        <h4>LIÊN KẾT</h4>
+                        <div>
+                            <ul>
+                                <li><a href="index.html">Trang chủ</a></li>
+                                <li><a href="SanPham.html">Sản phầm</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="gioithieu.html">Giới thiệu</a></li>
+                                <li><a href="lienhe.html">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="wrapper">
+                        <h4>ĐĂNG KÍ NHẬN TIN</h4>
+                        <div class="input-box">
+
+                            <input type="email" required>
+                            <label>Nhập email của bạn</label>
+                            <span class="icon">
+                                <a href=""><i class="fa-regular fa-paper-plane"></i></a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="ketnoi">
+                        <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
+                        <div class="ket-">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-github"></i></a>
+                            <a href=""><i class="fa-brands fa-google"></i></a>
+                            <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="footer">
-            <div class="footered">
-                <div class="gioithieu">
-                    <h4>GIỚI THIỆU</h4>
-                    <p>
-                        Với hơn 100 nhân viên tư vấn trên mọi phương diện, 
-                        không chỉ là hướng dẫn và xử lý các vấn đề từ Haravan,
-                        chúng tôi luôn mong cùng chia sẻ các kinh nghiệm giúp bạn bán được nhiều hàng hơn.
-                    </p>
-                    <div class="thongtin">
-                        <p><i class="fa-solid fa-house"></i>56 Vân côi, Q. Tân Bình, Tp.HCM</p>
-                        <p><i class="fa-solid fa-envelope"></i>hi@haravan.com</p>
-                        <p><i class="fa-solid fa-phone"></i>1900.636.099</p>
-                        <p><i class="fa-solid fa-print"></i>1900.678.099</p>
-                    </div>
-                </div>
-    
-                <div class="lienket">
-                    <h4>LIÊN KẾT</h4>
-                    <div>
-                        <ul>
-                            <li><a href="index.html">Trang chủ</a></li>
-                            <li><a href="SanPham.html">Sản phầm</a></li>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="gioithieu.html">Giới thiệu</a></li>
-                            <li><a href="lienhe.html">Liên hệ</a></li>
-                        </ul>
-                    </div>
-                </div>
-    
-                <div class="wrapper">
-                    <h4>ĐĂNG KÍ NHẬN TIN</h4>
-                    <div class="input-box">
-                        
-                        <input type="email" required>
-                        <label >Nhập email của bạn</label>
-                        <span class="icon">
-                            <a href=""><i class="fa-regular fa-paper-plane"></i></a>
-                        </span>
-                    </div>
-                </div>
-    
-                <div class="ketnoi">
-                    <h4>KẾT NỐI VỚI CHÚNG TÔI</h4>
-                    <div class="ket-">
-                        <a href=""><i class="fa-brands fa-facebook"></i></a>
-                        <a href=""><i class="fa-brands fa-twitter"></i></a> 
-                        <a href=""><i class="fa-brands fa-github"></i></a>
-                        <a href=""><i class="fa-brands fa-google"></i></a>
-                        <a href=""><i class="fa-brands fa-square-youtube"></i></a>
-                        <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="../js/Lam-SanPham.js"></script>
+        <script src="../js/Lam-SanPham.js"></script>
 </body>
+
 </html>

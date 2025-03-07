@@ -1,0 +1,127 @@
+body {
+    position: relative;
+    background: url(../anh/anhnendky.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+body::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(65, 64, 64, 0.5);
+    z-index: -1;
+}
+
+
+.dangky {
+    width: 430px;
+    height: 530px;
+    background-color: #eaeaea;
+    border-radius: 13px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.dangky1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.dangky2 {
+    margin-bottom: 25px;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+
+.dangky2 label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dangky2 input {
+    width: 100%;
+    padding: 10 px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#username {
+    margin-right: 10px;
+    height: 35px;
+}
+
+#email {
+    margin-right: 10px;
+    height: 35px;
+}
+
+#password {
+    margin-right: 10px;
+    height: 35px;
+}
+
+.dangky2 button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.dangky2 button:hover {
+    background-color: #0056B3;
+}
+
+#dky {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 1px;
+}
+
+.dangky3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.dangky3-1 {
+    font-family: Tahoma;
+    font-size: 12px;
+    color: rgb(101, 99, 99);
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.dangky3-2 {
+    font-family: Tahoma;
+    font-size: 14px;
+    color: blue;
+    margin-top: 3px;
+    transition: all 0.3s ease-in-out;
+}
+
+.dangky3-2:hover {
+    transform: scale(1.05);
+}
+
+.dangky3 a{
+    text-decoration: none;
+}

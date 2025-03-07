@@ -1,0 +1,89 @@
+/*don hang */
+/* Phần tổng thể */
+.Tuan-order-my {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+
+    border-radius: 10px;
+
+}
+
+/* Tiêu đề */
+.order-my-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.order-my-text h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Nội dung bảng */
+.order-my-conten {
+    display: flex;
+    justify-content: center;
+}
+
+.car-conten-left-detail {
+    width: 100%;
+}
+
+/* Bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+table thead tr {
+    background-color: #f7bf4e;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+table th,
+table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Căn chỉnh nội dung cột */
+table td p {
+    margin: 0;
+}
+
+/* Nút tiếp tục mua hàng */
+button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #f7bf4e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #e6a93f;
+}
