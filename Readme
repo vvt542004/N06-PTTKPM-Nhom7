@@ -1,0 +1,37 @@
+    Ngày nay, thương mại điện tử đang phát triển mạnh mẽ, giúp các doanh nghiệp tiếp cận khách hàng một cách nhanh chóng và hiệu quả. Trong lĩnh vực kinh doanh đồ nội thất, một website bán hàng không chỉ giúp việc trưng bày sản phẩm trở nên dễ dàng mà còn giúp khách hàng dễ dàng tìm kiếm, so sánh và đặt hàng một cách thuận tiện.
+    Dự án “xây dựng web bán đồ nội thất” nhằm tạo ra một nền tảng thương mại điện tử, giúp doanh nghiệp kinh doanh đồ nội thất tiếp cận khách hàng hiệu quả hơn, đồng thời góp phần nâng cao trải nghiệm mua sắm trực tuyến.
+Mục đích chính của dự án bao gồm:
+•	Cung cấp giao diện thân thiện: giúp khách hàng dễ dàng duyệt và mua sản phẩm.
+•	Hỗ trợ quản lý sản phẩm: giá cả, tồn kho, thông tin mô tả, hình ảnh minh họa.
+•	Tích hợp giỏ hàng: giúp khách hàng mua hàng một cách thuận tiện.
+•	Quản lý đơn hàng: từ lúc đặt hàng đến khi giao hàng, cập nhật trạng thái đơn hàng.
+•	Quản lý tài khoản người dùng: bao gồm khách hàng và quản trị viên.
+    Dự án không chỉ giúp doanh nghiệp nâng cao hiệu suất kinh doanh mà còn mang lại cho khách hàng sự tiện lợi thông qua một nền tảng mua sắm trực tuyến.
+    Dự án hướng đến việc xây dựng một “web bán đồ nội thất” với các tính năng quan trọng như:
+a)	Các thành phần chính của hệ thống
+•	Giao diện khách hàng
+o	Hiển thị danh mục sản phẩm theo (phòng bếp, phòng ngủ, phòng khách...).
+o	Chức năng tìm kiếm, lọc sản phẩm theo giá.
+o	Hệ thống giỏ hàng và thanh toán trực tuyến.
+o	Quản lý tài khoản khách hàng.
+•	Hệ thống quản trị
+o	Quản lý danh mục và sản phẩm (thêm, sửa, xóa, sản phẩm).
+o	Quản lý đơn hàng (trạng thái đơn hàng, hủy đơn).
+o	Quản lý khách hàng (thông tin của khách hàng).
+
+b)	 Công nghệ sử dụng
+•	Ngôn ngữ lập trình: PHP/Laravel, JavaScript (React.js/Vue.js).
+•	Cơ sở dữ liệu: MySQL.
+•	Giao diện người dùng: HTML, CSS.
+c)	 Đối tượng sử dụng
+•	Khách hàng: Người dùng có thể duyệt sản phẩm, thêm vào giỏ hàng, đặt hàng 
+•	Quản trị viên: Quản lý sản phẩm, đơn hàng và dữ liệu khách hàng.
+d)	 Phạm vi dự án
+    Dự án tập trung vào việc phát triển một web thương mại điện tử cho cửa hàng nội thất với các tính năng cơ bản, bao gồm:
+•	Xây dựng phiên bản web hỗ trợ trên desktop và mobile.
+•	Tích hợp giỏ hàng, quản lý đơn hàng.
+•	Chưa tích hợp AI, chatbot hoặc phân tích dữ liệu nâng cao.
+•	Hệ thống có khả năng mở rộng trong tương lai để phát triển thêm các tính năng nâng cao như gợi ý sản phẩm thông minh, ứng dụng di động.
+    Dự án hướng tới việc xây dựng một hệ thống thương mại điện tử tối ưu cho doanh nghiệp kinh doanh nội thất, mang lại sự tiện lợi cho khách hàng và nâng cao hiệu quả quản lý của doanh nghiệp.
+
+
